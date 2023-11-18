@@ -77,8 +77,10 @@ submit.addEventListener("click", function (e) {
 
   if (readValue === "Read") {
     btnRead.style.backgroundColor = "green";
+    btnRead.style.color = "white";
   } else {
     btnRead.style.backgroundColor = "";
+    btnRead.style.color = "black";
   }
 });
 
@@ -96,8 +98,10 @@ container.addEventListener("click", function (event) {
 
     if (myLibrary[index].read === "Read") {
       event.target.style.backgroundColor = "green";
+      event.target.style.color = "white";
     } else {
       event.target.style.backgroundColor = "";
+      event.target.style.color = "black";
     }
   }
 });
@@ -128,8 +132,10 @@ const updateUI = () => {
 
     if (readValue === "Read") {
       btnRead.style.backgroundColor = "green";
+      btnRead.style.color = "white";
     } else {
       btnRead.style.backgroundColor = "";
+      btnRead.style.color = "black";
     }
   }
 
