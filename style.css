@@ -1,0 +1,112 @@
+button {
+  margin: 20px;
+  place-self: center; 
+ }
+ 
+ body {
+   display: grid;
+   font-family: Arial, Helvetica, sans-serif;
+   margin: 0;
+   width: 100vw;
+ }
+
+ .heading {
+   text-align: left;
+   font-size: 60px;
+   margin-left: 40px;
+   width: 300px;
+   font-style: italic;
+ }
+
+ .page-top {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+ }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 20px;
+  margin: 40px;
+}
+
+.btnAdd {
+ width: 500px;
+ height: 70px;
+ font-size: 30px;
+ font-weight: 500;
+}
+
+.box {
+border: 1px solid black;
+padding: 10px;
+display: grid;
+grid-template-rows: 3fr 1fr 1fr;
+align-items: center;
+}
+
+.form {
+  display: grid;
+  background-color: lightgrey;
+}
+
+.hidden {
+  display: none;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  margin: 0 20px;
+  width: 300px;
+  height: 20px;
+  
+}
+
+.form label {
+  width: 75px;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.form #pages {
+  width: 100px;
+}
+
+.checkbox-container input {
+  width: 50px;
+  margin: 0;
+}
+
+.checkbox-container {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.box-text {
+  font-size: 16px;
+}
+
+.btn-read, .delete {
+width: 100%;
+height: 30px;
+font-size: 20px;
+}
+
+.read-true {
+  background-color: green;
+  color: white;
+}
+
+.btnSubmit {
+  height: 30px;
+  width: 100px;
+  border: 1px solid black;
+  font-weight: 500;
+}
