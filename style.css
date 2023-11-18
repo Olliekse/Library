@@ -16,6 +16,7 @@ button {
    margin-left: 40px;
    width: 300px;
    font-style: italic;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
  }
 
  .page-top {
@@ -32,18 +33,19 @@ button {
 }
 
 .btnAdd {
- width: 500px;
- height: 70px;
- font-size: 30px;
- font-weight: 500;
+  width: 400px;
+  height: 60px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 8px;
 }
 
 .box {
-border: 1px solid black;
-padding: 10px;
-display: grid;
-grid-template-rows: 3fr 1fr 1fr;
-align-items: center;
+  border: 1px solid black;
+  padding: 10px;
+  display: grid;
+  grid-template-rows:  1fr 1fr 1fr;
+  align-items: center;
 }
 
 .form {
